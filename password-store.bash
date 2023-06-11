@@ -9,6 +9,8 @@ if [ $# = 0 ] ; then
   
   find $prefix -type d | sort | while read dir ; do
     [[ "$dir" =~ .git ]] && continue
+    [[ "$dir" =~ docker-credential-helpers/ ]] && continue
+    
     password_files=( "$dir"/*.gpg )
     password_files=( "${password_files[@]#"$prefix"/}" )
     password_files=( "${password_files[@]%.gpg}" )
