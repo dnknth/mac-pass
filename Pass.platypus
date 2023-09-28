@@ -17,7 +17,7 @@
 	<key>DeclareService</key>
 	<false/>
 	<key>Destination</key>
-	<string>/Users/dk/Desktop/Application.app</string>
+	<string>Pass.app</string>
 	<key>DevelopmentVersion</key>
 	<false/>
 	<key>DocIconPath</key>
@@ -27,7 +27,7 @@
 	<key>ExecutablePath</key>
 	<string>/usr/local/share/platypus/ScriptExec</string>
 	<key>IconPath</key>
-	<string>/Users/dk/Library/Application Support/Platypus/PlatypusIcon-41929.icns</string>
+	<string>PlatypusIcon-41929.icns</string>
 	<key>Identifier</key>
 	<string>org.dk.Pass</string>
 	<key>InterfaceType</key>
@@ -53,7 +53,7 @@
 	<key>ScriptArgs</key>
 	<array/>
 	<key>ScriptPath</key>
-	<string>/Users/dk/bin/password-store.bash</string>
+	<string>password-store.bash</string>
 	<key>SendNotifications</key>
 	<true/>
 	<key>StatusItemDisplayType</key>

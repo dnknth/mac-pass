@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-PATH="/usr/local/bin:$PATH"
+PATH="/usr/local/bin:/opt/homebrew/bin:$PATH"
 shopt -s nullglob
 
 if [ $# = 0 ] ; then
